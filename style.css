@@ -1,0 +1,142 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    margin: 0;
+    padding: 30px 15px;
+    font-family: Arial, sans-serif;
+    font-size: 16px;
+    color: black;
+    background-color: #b4b2b2;
+}
+
+.index {
+    width: 100%;
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 30px;
+    background-color: #ffffff;
+}
+
+.container {
+    width: 100%;
+    max-width: 750px;
+    margin: 0 auto;
+    padding: 30px;
+    background-color: #ffffff;
+}
+
+h1 {
+    margin-top: 0;
+    margin-bottom: 20px;
+    font-size: 26px;
+}
+
+p {
+    line-height: 1.5;
+}
+
+.data {
+    margin: 12px 0;
+    padding: 12px;
+    border: 1px solid black;
+    border-radius: 8px;
+}
+
+a,
+button {
+    display: inline-block;
+    padding: 10px 15px;
+    border: none;
+    border-radius: 6px;
+    background-color: #2c3ad2;
+    color: white;
+    font-family: Arial, sans-serif;
+    font-size: 14px;
+    font-weight: bold;
+    text-decoration: none;
+    cursor: pointer;
+}
+
+a:hover,
+button:hover {
+    background-color: #2c3ad2;
+}
+
+.btn-kembali {
+    background-color: #2c3ad2;
+}
+
+.btn-kembali:hover {
+    background-color: #2c3ad2;
+}
+
+.table {
+    width: 100%;
+    overflow-x: auto;
+    margin-top: 20px;
+}
+
+table {
+    width: 100%;
+    border-collapse: collapse;
+    background-color: white;
+}
+
+th,
+td {
+    padding: 12px 10px;
+    border: 1px solid #bcbcbc;
+    text-align: left;
+}
+
+th {
+    background-color: #757ab7;
+    color: white;
+    border: 1px solid white;
+}
+
+form {
+    margin-top: 15px;
+}
+
+form p {
+    margin-bottom: 7px;
+    font-weight: bold;
+}
+
+input,
+textarea {
+    display: block;
+    width: 100%;
+    padding: 10px;
+    border: 1px solid black;
+    border-radius: 6px;
+    font-family: Arial, sans-serif;
+    font-size: 14px;
+}
+
+textarea {
+    min-height: 125px;
+}
+
+.form-actions {
+    margin-top: 20px;
+}
+
+.lulus {
+    color: green;
+    font-weight: bold;
+}
+
+.tidak-lulus {
+    color: red;
+    font-weight: bold;
+}
+
+.tombol-form {
+    display: flex;
+    justify-content: flex-end;
+    margin-bottom: 20px;
+}
